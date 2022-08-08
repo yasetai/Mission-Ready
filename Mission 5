@@ -1,0 +1,26 @@
+public class Mission5 {
+    
+    public static void mission5(){
+    
+ 	List<Integer> input = new List<Integer>{12, 20, 30, 17};
+    for (integer i : input) {
+        integer currentnum = i;
+    	
+
+   	if (Math.Mod(currentnum,3) == 0 && Math.Mod(currentnum,5) == 0){
+       	system.debug('DingDong');
+   			 }
+   	 else if(Math.Mod(currentnum,3) == 0){
+       	system.debug('Ding');
+  			  }
+   	else if (Math.Mod(currentnum,5) == 0){
+       	system.debug('Dong');
+  			  }
+  	 else {
+    	system.debug('17');
+  			  }
+    }
+        
+	}
+    
+}
